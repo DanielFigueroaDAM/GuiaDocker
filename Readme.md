@@ -64,3 +64,13 @@ Usamos el comando en la terminal de nuestra máquina `ls -lh /bin/busybox` para 
 
 Vemos que ocupa 755 KB en el disco
 
+## Tarea 8: Comprobar el uso de memoria RAM de los contenedores
+
+![SacarRam](img_14.png)
+
+Usamos el comando `docker stats` para ver el uso de memoria RAM de los contenedores.
+
+![Stats](img_15.png)
+
+Por lo que vemos en la captura, el contenedor alp2 esta usando 746 KIB de RAM.
+
