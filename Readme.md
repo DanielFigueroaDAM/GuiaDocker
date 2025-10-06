@@ -49,3 +49,10 @@ Al adquirir las IPs ya podemos hacer ping entre los dos contenedores.
 
 ![pingAlp2Alp1](img_11.png)
 
+## Tarea 6: Salir del contenedor dam_alp1 sin pararlo
+
+![SalidDelContenedor](img_12.png)
+
+Dentro de la terminal usamos la palabra `exit` para salir del contenedor sin pararlo.
+Al comprobar su estado con `docker ps -a` vemos que sigue en estado está en "Exited(0)"
+
