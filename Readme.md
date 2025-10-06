@@ -26,5 +26,16 @@ Para obtener el nombre del contenedor usamos el comando `docker ps -a`, ahí nos
 
 Con el comando `docker run -it --name dam_alp1 alpine` creamos un contenedor Alpine con el nombre dam_alp1 y accedemos a su terminal.
 
+# Tarea 4: Acceder a internet desde el contenedor dam_alp1
+
+![accediendoAGoogle](img_5.png)
+
+Hacemos ping a google.com para comprobar que tenemos acceso a internet, y a 8.8.8.8 que es un servidor DNS de Google.
+(En ese momento fallaba la conexión a internet)
+
+![ipDam_alp1](img_6.png)
+
+Dentro de la terminal del alpine "dam_alp1" usamos el comando `ip a` para ver la IP que tiene asignada el contenedor (172.17.0.2).
+
 
 
