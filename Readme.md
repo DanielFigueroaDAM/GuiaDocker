@@ -37,5 +37,15 @@ Hacemos ping a google.com para comprobar que tenemos acceso a internet, y a 8.8.
 
 Dentro de la terminal del alpine "dam_alp1" usamos el comando `ip a` para ver la IP que tiene asignada el contenedor (172.17.0.2).
 
+## Tarea 5: Crear un contenedor Alpine con nombre dam_alp2
 
+Creamos el contenedor dam_alp2 con el comando `docker run -it --name dam_alp2 alpine`, y usamos el comando `ip a` para ver su IP (172.17.0.3).
+
+![crear_alp2](img_9.png)
+
+Al adquirir las IPs ya podemos hacer ping entre los dos contenedores.
+
+![pingAlp1Alp2](img_10.png)
+
+![pingAlp2Alp1](img_11.png)
 
