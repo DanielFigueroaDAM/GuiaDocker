@@ -2,7 +2,7 @@
 
 ## Tarea 1: Descargar imagen Alpine sin arrancarla
 
-![MaquinaDescargarSinArrancar](img.png)
+![MáquinaDescargarSinArrancar](img.png)
 
 Con este comando descargamos la imagen de Alpine sin arrancar ningún contenedor.
 
@@ -26,7 +26,7 @@ Para obtener el nombre del contenedor usamos el comando `docker ps -a`, ahí nos
 
 Con el comando `docker run -it --name dam_alp1 alpine` creamos un contenedor Alpine con el nombre dam_alp1 y accedemos a su terminal.
 
-# Tarea 4: Acceder a internet desde el contenedor dam_alp1
+## Tarea 4: Acceder a internet desde el contenedor dam_alp1
 
 ![accediendoAGoogle](img_5.png)
 
@@ -51,12 +51,12 @@ Al adquirir las IPs ya podemos hacer ping entre los dos contenedores.
 
 ## Tarea 6: Salir del contenedor dam_alp1 sin pararlo
 
-![SalidDelContenedor](img_12.png)
+![SalidaDelContenedor](img_12.png)
 
 Dentro de la terminal usamos la palabra `exit` para salir del contenedor sin pararlo.
-Al comprobar su estado con `docker ps -a` vemos que sigue en estado está en "Exited(0)"
+Al comprobar su estado con `docker ps -a` vemos que sigue en estado está en "Exited (0)"
 
-## Tarea 7: Comprobar cuanta memoria de disco se ocupó.
+## Tarea 7: Comprobar cuánta memoria de disco se ocupó.
 
 Usamos el comando en la terminal de nuestra máquina `ls -lh /bin/busybox` para ver el tamaño del archivo busybox que es el que usa Alpine.
 
@@ -72,5 +72,5 @@ Usamos el comando `docker stats` para ver el uso de memoria RAM de los contenedo
 
 ![Stats](img_15.png)
 
-Por lo que vemos en la captura, el contenedor alp2 esta usando 746 KIB de RAM.
+Por lo que vemos en la captura, el contenedor alp2 está usando 746 KIB de RAM.
 
