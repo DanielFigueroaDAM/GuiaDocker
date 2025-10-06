@@ -56,3 +56,11 @@ Al adquirir las IPs ya podemos hacer ping entre los dos contenedores.
 Dentro de la terminal usamos la palabra `exit` para salir del contenedor sin pararlo.
 Al comprobar su estado con `docker ps -a` vemos que sigue en estado está en "Exited(0)"
 
+## Tarea 7: Comprobar cuanta memoria de disco se ocupó.
+
+Usamos el comando en la terminal de nuestra máquina `ls -lh /bin/busybox` para ver el tamaño del archivo busybox que es el que usa Alpine.
+
+![TamañoDisco](img_13.png)
+
+Vemos que ocupa 755 KB en el disco
+
